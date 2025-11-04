@@ -1,4 +1,9 @@
 /*Body style rules Color Palette: main page white color: #F5EFE6 darker white color: #E8DFCA Light blue: #CBDCEB Dark blue: #6D94C5*/
+
+/* CSS Reset */
+body, header, nav, main, footer, img, h1, h2, h3, ul, li, p, section {margin: 0;padding: 0;border: 0;}
+
 body {
 	background-color: #F5EFE6;
 }
+
