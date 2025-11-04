@@ -18,6 +18,63 @@ footer {
 
 /* Drinks css */
 
+body {
+  background-color: #F5EFE6;
+  font-family: "Poppins", sans-serif;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  background-color: #CBDCEB;
+  color: #6D94C5;
+  padding: 20px;
+  border-bottom: 4px solid #6D94C5;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  background-color: #E8DFCA;
+  list-style: none;
+  padding: 10px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #6D94C5;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  color: #333;
+}
+.menu-section {
+  background-color: #E8DFCA;
+  margin: 30px auto;
+  width: 80%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.menu-section h2 {
+  color: #6D94C5;
+  border-bottom: 2px solid #CBDCEB;
+  padding-bottom: 5px;
+}
+
+.drink {
+  margin: 15px 0;
+}
+
+.drink h3 {
+  color: #333;
+  margin-bottom: 5px;
+}
 
 
 
