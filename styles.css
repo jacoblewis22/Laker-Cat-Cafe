@@ -74,9 +74,14 @@ nav ul li a:hover {
   color: #333;
   margin-bottom: 5px;
 }
-
 /* End of Drinks css */
-/* Style rule for form elements */
+
+.map {
+		border: 2px solid #000;
+		width: 95%;
+		height: 50%;
+}
+/* Style rules for footer content */
 
 /* ---------Media Query for Tablet ---------*/
 @media (max-width: 768px) {
@@ -93,6 +98,7 @@ nav ul li a:hover {
 }
 
 /* end of tablet media query */
+
 
 
 
