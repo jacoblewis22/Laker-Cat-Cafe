@@ -3,20 +3,7 @@
 /* CSS Reset */
 body, header, nav, main, footer, img, h1, h2, h3, ul, li, p, section {margin: 0;padding: 0;border: 0;}
 
-body {
-	background-color: #F5EFE6;
-}
 
-footer {
-  text-align: center;
-  background-color: #CBDCEB;
-  padding: 10px;
-  font-size: 0.9em;
-  color: #6D94C5;
-}
-
-
-/* Drinks css */
 
 body {
   background-color: #F5EFE6;
@@ -30,6 +17,14 @@ header {
   color: #6D94C5;
   padding: 20px;
   border-bottom: 4px solid #6D94C5;
+}
+
+footer {
+  text-align: center;
+  background-color: #CBDCEB;
+  padding: 10px;
+  font-size: 0.9em;
+  color: #6D94C5;
 }
 
 nav ul {
@@ -53,6 +48,8 @@ nav ul li a {
 nav ul li a:hover {
   color: #333;
 }
+
+/* Drinks css */
 .menu-section {
   background-color: #E8DFCA;
   margin: 30px auto;
@@ -94,6 +91,7 @@ nav ul li a:hover {
 }
 
 /* end of tablet media query */
+
 
 
 
