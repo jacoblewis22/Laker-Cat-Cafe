@@ -43,75 +43,98 @@ dark blue: #6D94C5
 
 		<main>
 		
-      <section class="menu-section">
-        <h2>☕ Coffee Creations</h2>
-        <div class="drink">
-          <h3>Catpuccino</h3>
-          <p>Our signature cappuccino with extra foam art shaped like a cat paw. Made with locally roasted espresso.</p>
-          <img class="photo" src="images/coffee.jpg" alt="coffee">
-        </div>
-        <div class="drink">
-          <h3>Meowcha Latte</h3>
-          <p>A cozy vanilla latte with a hint of caramel and cinnamon, smooth and purr-worthy.</p>
-        </div>
-        <div class="drink">
-          <h3>Espurr-esso Shot</h3>
-          <p>Pure espresso energy for those early campus mornings.</p>
-        </div>
-      </section>
-
-      <section class="menu-section">
-        <h2>🍵 Matcha Moments</h2>
-        <div class="drink">
-          <h3>Green Pawder Latte</h3>
-          <p>Ceremonial-grade matcha whisked to perfection, topped with oat milk and a drizzle of honey.</p>
-        </div>
-        <div class="drink">
-          <h3>Whisker Whisk Matcha</h3>
-          <p>Light, earthy, and energizing, a classic matcha latte for matcha lovers.</p>
-        </div>
-      </section>
-
-      <section class="menu-section">
-        <h2>🧋 Boba Bliss</h2>
-        <div class="drink">
-          <h3>Taro Tabby</h3>
-          <p>Sweet, creamy taro milk tea with chewy tapioca pearls.</p>
-        </div>
-        <div class="drink">
-          <h3>Brown Sugar Bengal</h3>
-          <p>Rich brown sugar boba with caramel undertones and silky milk tea.</p>
-        </div>
-        <div class="drink">
-          <h3>Strawberry Siamese</h3>
-          <p>Fruity strawberry milk tea with popping pearls, the perfect sweet treat!</p>
-        </div>
-      </section>
-
-      <section class="menu-section">
-        <h2>🍫 Hot Chocolates</h2>
-        <div class="drink">
-          <h3>Kitten Cocoa</h3>
-          <p>Classic hot chocolate topped with whipped cream and tiny marshmallow “paw prints.”</p>
-        </div>
-        <div class="drink">
-          <h3>Caramel Catnip</h3>
-          <p>Decadent caramel hot chocolate with a sprinkle of sea salt, dangerously addictive.</p>
-        </div>
-      </section>
-
-      <section class="menu-section">
-        <h2>🥤 Other Drinks</h2>
-        <div class="drink">
-          <h3>Chill Cat Cold Brew</h3>
-          <p>Slow-brewed cold coffee with vanilla cream, smooth and refreshing.</p>
-        </div>
-        <div class="drink">
-          <h3>Purrfect Lemonade</h3>
-          <p>Freshly squeezed lemonade with lavender or blueberry syrup options.</p>
-        </div>
-      </section>
-    </main>
+	      <!-- Coffee Creations -->
+	      <section class="menu-section">
+	        <div class="menu-content">
+	          <h2>☕ Coffee Creations</h2>
+	          <div class="drink">
+	            <h3>Catpuccino</h3>
+	            <p>Our signature cappuccino with extra foam art shaped like a cat paw. Made with locally roasted espresso.</p>
+	          </div>
+	          <div class="drink">
+	            <h3>Meowcha Latte</h3>
+	            <p>A cozy vanilla latte with a hint of caramel and cinnamon, smooth and purr-worthy.</p>
+	          </div>
+	          <div class="drink">
+	            <h3>Espurr-esso Shot</h3>
+	            <p>Pure espresso energy for those early campus mornings.</p>
+	          </div>
+	        </div>
+	        <img class="section-photo" src="images/coffee.jpg" alt="coffee">
+	      </section>
+	
+	
+	      <!-- Matcha Moments -->
+	      <section class="menu-section">
+	        <div class="menu-content">
+	          <h2>🍵 Matcha Moments</h2>
+	          <div class="drink">
+	            <h3>Green Pawder Latte</h3>
+	            <p>Ceremonial-grade matcha whisked to perfection, topped with oat milk and a drizzle of honey.</p>
+	          </div>
+	          <div class="drink">
+	            <h3>Whisker Whisk Matcha</h3>
+	            <p>Light, earthy, and energizing, a classic matcha latte for matcha lovers.</p>
+	          </div>
+	        </div>
+	        <img class="section-photo" src="images/matcha.jpg" alt="matcha">
+	      </section>
+	
+	
+	      <!-- Boba Bliss -->
+	      <section class="menu-section">
+	        <div class="menu-content">
+	          <h2>🧋 Boba Bliss</h2>
+	          <div class="drink">
+	            <h3>Taro Tabby</h3>
+	            <p>Sweet, creamy taro milk tea with chewy tapioca pearls.</p>
+	          </div>
+	          <div class="drink">
+	            <h3>Brown Sugar Bengal</h3>
+	            <p>Rich brown sugar boba with caramel undertones and silky milk tea.</p>
+	          </div>
+	          <div class="drink">
+	            <h3>Strawberry Siamese</h3>
+	            <p>Fruity strawberry milk tea with popping pearls, the perfect sweet treat!</p>
+	          </div>
+	        </div>
+	        <img class="section-photo" src="images/boba.jpg" alt="boba">
+	      </section>
+	
+	
+	
+	      <!-- Hot Chocolates -->
+	        <section class="menu-section">
+	          <div class="menu-content">
+	            <h2>🍫 Hot Chocolates</h2>
+	            <div class="drink">
+	              <h3>Kitten Cocoa</h3>
+	              <p>Classic hot chocolate topped with whipped cream and tiny marshmallow “paw prints.”</p>
+	            </div>
+	            <div class="drink">
+	              <h3>Caramel Catnip</h3>
+	              <p>Decadent caramel hot chocolate with a sprinkle of sea salt, dangerously addictive.</p>
+	            </div>
+	          </div>
+	          <img class="section-photo" src="images/hot-chocolate.jpg" alt="hot-chocolate">
+	        </section>
+	
+	
+	        <!-- Other Drinks-->
+	        <section class="menu-section">
+	          <div class="menu-content">
+	            <h2>🥤 Other Drinks</h2>
+	            <div class="drink">
+	              <h3>Chill Cat Cold Brew</h3>
+	              <p>Slow-brewed cold coffee with vanilla cream, smooth and refreshing.</p>
+	            </div>
+	            <div class="drink">
+	              <h3>Purrfect Lemonade</h3>
+	              <p>Freshly squeezed lemonade with lavender or blueberry syrup options.</p>
+	            </div>
+	          </div>
+	          <img class="section-photo" src="images/lemonade.jpg" alt="lemonade">
+	        </section>
 
 
 		<footer>
@@ -121,6 +144,10 @@ dark blue: #6D94C5
 	</body>
 
 </html>
+
+
+
+
 
 
 
