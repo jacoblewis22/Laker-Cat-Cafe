@@ -78,6 +78,22 @@ nav ul li a:hover {
 
 /* End of Drinks css */
 
+/* Media Query for Tablet */
+
+@media (max-width: 768px) {
+  .menu-section {
+    flex-direction: column;
+  }
+  .section-photo {
+    margin-left: 0;
+    margin-top: 15px;
+    width: 100%;
+    max-width: 300px;
+    align-self: center;
+  }
+}
+
+/* end of tablet media query */
 
 
 
