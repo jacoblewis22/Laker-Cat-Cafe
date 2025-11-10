@@ -76,6 +76,33 @@ nav ul li a:hover {
 }
 /* End of Drinks css */
 
+/* Cats css */
+.cats-section {
+  background-color: #E8DFCA;
+  margin: 30px auto;
+  width: 80%;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.cats {
+  margin: 15px 0;
+}
+
+.cats h1 {
+  color: #333;
+  margin-bottom: 5px;
+  color: #6D94C5;
+  border-bottom: 2px solid #CBDCEB;
+  padding-bottom: 5px;
+}
+  
+.cats p {
+	margin: 2em 0;
+}
+/* End of cats css */
+
 .map {
 		border: 2px solid #000;
 		width: 95%;
@@ -98,6 +125,7 @@ nav ul li a:hover {
 }
 
 /* end of tablet media query */
+
 
 
 
