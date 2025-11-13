@@ -41,6 +41,7 @@ main {
 }
 
 .menu-icon {
+	cursor: pointer;
 	display: block;
 	position: absolute;
 	right: 0;
@@ -277,6 +278,7 @@ footer {
 		height: 400px;
 	}
 }
+
 
 
 
