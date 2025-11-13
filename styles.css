@@ -189,6 +189,8 @@ footer {
 	.mobile, .mobile-nav {
 		display: none;
 	}
+
+	/* Header Area */
 	
 	/* Nav area style */
 	nav ul {
@@ -196,14 +198,15 @@ footer {
 	  justify-content: center;
 	  background-color: #E8DFCA;
 	  list-style: none;
-	  padding: 10px;
+	  padding: 20px 10px;
 	}
 
-	nav ul li {
-	  margin: 0 15px;
+	nav li {
+	  margin: 0 0.5em;
+	  font-size: 1.10em;
 	}
 
-	nav ul li a {
+	nav li a {
 	  text-decoration: none;
 	  color: #6D94C5;
 	  font-weight: bold;
@@ -240,6 +243,11 @@ footer {
 			grid-template-columns: 1fr 1fr;
 			grid-gap: 1px;
 	}
+
+	/* Style rules for footer content */
+	footer {
+		padding: 15px 0;
+	}
 }
 
 /* end of tablet media query */
@@ -247,7 +255,13 @@ footer {
 /* Media Query for desktop viewport */
 @media screen and (min-width: 1015px), print {
 
+	nav li {
+		font-size: 1.5em;
+	}
 
+	nav ul li a:hover {
+	  color: #333;
+	}
 	/* Location CSS */
 	#location h3 {
 		font-size: 1.85em;
@@ -263,6 +277,7 @@ footer {
 		height: 400px;
 	}
 }
+
 
 
 
