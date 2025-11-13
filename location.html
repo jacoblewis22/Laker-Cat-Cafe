@@ -14,12 +14,29 @@
 	
 	</head>
 	<body>
+		<!-- Mobile Nav -->
+		<nav class="mobile-nav">
+			<div id="menu-links">
+				<a href="index.html">Home</a>
+				<a href="about.html">About Us</a>
+				<a href="cats.html">Our Cats</a>
+				<a href="food.html">Food</a></li>
+				<a href="activities.html">Activities</a>
+				<a href="specials.html">Specials</a>
+				<a href="location.html">Locations</a>
+				<a href="contact.html">Contact Us</a>
+			</div>
+			<a class="menu-icon" onclick="hamburger()">
+				<div>&#9776;</div>
+			</a>
+		</nav>
+	
 		<header>
 			<h1>Laker Cat Lounge</h1>
-			<h2>Sip. Study. Snuggle.</h2>
+			<h2>Slogan</h2>
 		</header>
 
-		<nav>
+		<nav class="tablet-desktop">
 			<ul>
 				<li><a href="index.html">Home</a></li>
 				<li><a href="about.html">About Us</a></li>
@@ -35,19 +52,18 @@
 		<main>
 			<div id="location"> 
 				<h3>Ready for a visit? Here are our locations!</h3>
-				
-				
-				<article id="allendale">
-					<p>You can find us at GVSU Allendale Campus</p>
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5839.34305482331!2d-85.89161532403696!3d42.96412599672525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8819a31f0c9d398f%3A0xea0367b3e0ec32fa!2sGrand%20Valley%20State%20University!5e0!3m2!1sen!2sus!4v1757453005456!5m2!1sen!2sus"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
-				</article>
+				<section class="grid">
+					<article class="location-spot">
+						<p>You can find us at GVSU Allendale Campus:</p>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5839.34305482331!2d-85.89161532403696!3d42.96412599672525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8819a31f0c9d398f%3A0xea0367b3e0ec32fa!2sGrand%20Valley%20State%20University!5e0!3m2!1sen!2sus!4v1757453005456!5m2!1sen!2sus"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+					</article>
 
-				
-				<article id="pewcampus">
-					<p>You can find us at GVSU Pew Campus</p>
-					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5839.370410332869!2d-85.68215592403698!3d42.96383779674359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8819addbe1f31eef%3A0xd8e0fe2dcf065680!2sGrand%20Valley%20State%20University%3A%20Pew%20Campus!5e0!3m2!1sen!2sus!4v1761852466976!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map" ></iframe>
-				</article>
-				
+					
+					<article class="location-spot">
+						<p>Or at our GVSU Pew Campus:</p>
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5839.370410332869!2d-85.68215592403698!3d42.96383779674359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8819addbe1f31eef%3A0xd8e0fe2dcf065680!2sGrand%20Valley%20State%20University%3A%20Pew%20Campus!5e0!3m2!1sen!2sus!4v1761852466976!5m2!1sen!2sus" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map" ></iframe>
+					</article>
+				</section>
 			</div>
 		</main>
 
@@ -55,13 +71,11 @@
 			<p>&#169; Copyright 2025. All Rights Reserved.</p>
 		</footer>
 		
+		<script src="scripts/script.js"></script>
+		
 	</body>
 
 </html>
-
-
-
-
 
 
 
