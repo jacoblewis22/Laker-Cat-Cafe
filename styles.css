@@ -1,3 +1,4 @@
+
 /*Body style rules Color Palette: main page white color: #F5EFE6 darker white color: #E8DFCA Light blue: #CBDCEB Dark blue: #6D94C5*/
 
 /* CSS Reset */
@@ -10,6 +11,8 @@ body {
   font-family: "Poppins", sans-serif;
   color: #333;
 }
+
+
 /* Style rule for mobile viewport */
 
 	/* Style rules for header */
@@ -20,15 +23,40 @@ header {
   padding: 20px;
   border-bottom: 4px solid #6D94C5;
 }
-
-footer {
-  text-align: center;
-  background-color: #CBDCEB;
-  padding: 10px;
-  font-size: 0.9em;
-  color: #6D94C5;
+/* Style rule for main content */
+main {
+		overflow: hidden;
 }
+
 /* Style rules for navigation area */	
+
+.mobile-nav a {
+	color: #fff;
+	font-family: "Poppins", sans-serif;
+	text-align: center;
+	font-size: 2em;
+	text-decoration: none;
+	padding: 3%;
+	display: block;
+}
+
+.menu-icon {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	color: #6D94C5;
+}
+/* Mobile nav and tablet viewport */
+.tablet-desktop, #menu-links {
+		display: none;
+}
+
+.mobile {
+		display: block;
+}
+
+/*
 nav ul {
   display: flex;
   justify-content: center;
@@ -50,6 +78,8 @@ nav ul li a {
 nav ul li a:hover {
   color: #333;
 }
+
+*/
 /* Style rules for main content */	
 /* Drinks css */
 .menu-section {
@@ -103,33 +133,124 @@ nav ul li a:hover {
 }
 /* End of cats css */
 
+/* Maps and locations CSS */
+#location {
+	background-color: #6D94C5;
+	text-align: center;
+	padding: 5% 0;
+}
+
+#location h3 {
+	font-size: 1.5em;
+	padding: 5% 3%;
+}
+
+#location p {
+	font-size: 1.25em;
+	padding: 5% 3%;
+}
+	
+	
 .map {
-		border: 2px solid #000;
-		width: 95%;
-		height: 50%;
+	border: 3px solid #000;
+	width: 75%;
+	height: 100%;
 }
 /* Style rules for footer content */
+footer {
+	text-align: center;
+	background-color: #CBDCEB;
+	padding: 10px;
+	font-size: 0.9em;
+	color: #6D94C5;
+}
+
+
 
 /* ---------Media Query for Tablet ---------*/
-@media (max-width: 768px) {
-  .menu-section {
-    flex-direction: column;
-  }
-  .section-photo {
-    margin-left: 0;
-    margin-top: 15px;
-    width: 100%;
-    max-width: 300px;
-    align-self: center;
-  }
+@media screen and (min-width: 768px) {
+	
+	/* Tablet Viewport: show tablet-desktop class, hide mobile class */
+	.tablet-desktop {
+		display: block;
+	}
+	
+	.mobile, .mobile-nav {
+		display: none;
+	}
+	
+	/* Nav area style */
+	nav ul {
+	  display: flex;
+	  justify-content: center;
+	  background-color: #E8DFCA;
+	  list-style: none;
+	  padding: 10px;
+	}
+
+	nav ul li {
+	  margin: 0 15px;
+	}
+
+	nav ul li a {
+	  text-decoration: none;
+	  color: #6D94C5;
+	  font-weight: bold;
+	}
+
+	nav ul li a:hover {
+	  color: #333;
+	}
+
+	
+	.menu-section {
+		flex-direction: column;
+	}
+	.section-photo {
+		margin-left: 0;
+		margin-top: 15px;
+		width: 100%;
+		max-width: 300px;
+		align-self: center;
+	}
+	
+	/* Location CSS */
+	#location p {
+		font-family: serif;
+	}
+	
+	.map {
+		width: 300px;
+		height: 300px;
+	}
+	
+	.grid {
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-gap: 1px;
+	}
 }
 
 /* end of tablet media query */
 
+/* Media Query for desktop viewport */
+@media screen and (min-width: 1015px), print {
 
 
-
-
-
+	/* Location CSS */
+	#location h3 {
+		font-size: 1.85em;
+	}
+	
+	#location p {
+		font-family: serif;
+		font-size: 1.5em;
+	}
+	
+	.map {
+		width: 400px;
+		height: 400px;
+	}
+}
 
 
