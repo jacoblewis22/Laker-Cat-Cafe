@@ -105,6 +105,17 @@ nav ul li a:hover {
   margin-bottom: 5px;
 }
 /* End of Drinks css */
+/* Food css (same as drinks) */
+
+.food {
+	margin: 15px 0;
+}
+
+.food h3 {
+	color: #333;
+	margin-bottom: 5px;
+}
+/* end food css */
 
 /* Cats css */
 .cats-section {
@@ -252,5 +263,6 @@ footer {
 		height: 400px;
 	}
 }
+
 
 
