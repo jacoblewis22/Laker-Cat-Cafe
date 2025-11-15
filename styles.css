@@ -97,6 +97,19 @@ nav ul li a:hover {
   padding-bottom: 5px;
 }
 
+.menu-content {
+  flex: 1; 
+}
+
+.section-photo {
+  width: 250px;
+  height: auto;
+  border-radius: 15px; 
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.3);
+  margin-left: 20px; 
+}
+
+
 .drink {
   margin: 15px 0;
 }
@@ -278,6 +291,7 @@ footer {
 		height: 400px;
 	}
 }
+
 
 
 
