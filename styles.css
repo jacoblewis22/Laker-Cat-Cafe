@@ -1,4 +1,3 @@
-
 /*Body style rules Color Palette: main page white color: #F5EFE6 darker white color: #E8DFCA Light blue: #CBDCEB Dark blue: #6D94C5*/
 
 /* CSS Reset */
@@ -158,6 +157,45 @@ nav ul li a:hover {
 }
 /* End of cats css */
 
+/* Home css */
+.hours {
+  background-color: #E8DFCA;
+  margin: 30px auto;
+  width: 80%;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  list-style-type: none;
+}
+
+.welcome h3 {
+	text-align: center;
+	margin: 1em;
+	}
+	
+.welcome h2 {
+	margin: 1em;
+}
+
+.welcome p {
+	padding: 0 1em;
+}
+
+.welcome, .goal {
+	text-align: center;
+}
+
+.goal {
+	margin-bottom: 2em;
+}
+
+.home-img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+/* End of home CSS */
+
 /* Maps and locations CSS */
 #location {
 	background-color: #6D94C5;
@@ -291,6 +329,7 @@ footer {
 		height: 400px;
 	}
 }
+
 
 
 
