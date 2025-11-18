@@ -130,6 +130,40 @@ nav ul li a:hover {
 }
 /* end food css */
 
+/* About CSS */
+.schedules {
+	font-weight: bold;
+}
+
+/* End of About CSS */
+
+/*Activities CSS */
+.activities-section {
+  background-color: #E8DFCA;
+  margin: 30px auto;
+  width: 80%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.activities-section h2 {
+  color: #6D94C5;
+  border-bottom: 2px solid #6D94C5;
+  padding-bottom: 5px;
+}
+
+#adoptions, #painting, #trivia {
+	flex: 1;
+}
+
+.act-times {
+	background-color: #E8DFCA;
+	margin: 30px auto;
+	width: 80%;
+	padding: 20px;
+	border-radius: 10px;
+}
+/*End of Activities Mobile Viewport */
 /* Cats css */
 .cats-section {
   background-color: #E8DFCA;
@@ -279,6 +313,37 @@ footer {
 		max-width: 300px;
 		align-self: center;
 	}
+
+/* Activities Tablet Viewport */
+	table {
+		border: 1px solid #6D94C5;
+		border-collapse: collapse;
+		margin: 0 auto;
+		width: 100%;
+	}
+	
+	caption {
+		font-size: 1.5em;
+		font-weight: bold;
+		color: #6D94C5;
+		padding: 1%;
+	}
+	
+	th, td {
+		border: 1px solid #6D94C5;
+		padding: 2%;
+	}
+	
+	th {
+		background-color: #6D94C5;
+		color: #fff;
+		font-size: 1.15em;
+	}
+	
+	tr:nth-child(even) {
+		background-color: #CBDCEB;
+	}
+	/*End of Activities Tablet Viewport */
 	
 	/* Location CSS */
 	#location p {
@@ -329,6 +394,7 @@ footer {
 		height: 400px;
 	}
 }
+
 
 
 
