@@ -135,6 +135,24 @@ nav ul li a:hover {
 	font-weight: bold;
 }
 
+#story,#locations {
+  background-color: #E8DFCA;
+  margin: 30px auto;
+  width: 80%;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#story h2, #locations h2, {
+  color: #6D94C5;
+  border-bottom: 2px solid #6D94C5;
+  padding-bottom: 5px;
+}
+
+#story p, #locations p, #locations ul {
+  color: #333;
+  margin: 2em 0;
+}
 /* End of About CSS */
 
 /*Activities CSS */
@@ -394,6 +412,7 @@ footer {
 		height: 400px;
 	}
 }
+
 
 
 
