@@ -207,6 +207,11 @@ nav ul li a:hover {
 .cats p {
 	margin: 2em 0;
 }
+
+.adoption-link {
+	text-decoration: none;
+	color: #6D94C5;
+}
 /* End of cats css */
 
 /* Home css */
@@ -412,6 +417,7 @@ footer {
 		height: 400px;
 	}
 }
+
 
 
 
